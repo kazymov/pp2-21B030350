@@ -9,7 +9,9 @@ print('Hello')
 
 #looping through a string 
 for x in "banana":
-    print(x)
+    print(x, end="")# end=""-print on one line
+    
+print()
 
 #string lenght
 a="Hello, world!"

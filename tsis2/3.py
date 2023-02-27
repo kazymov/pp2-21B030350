@@ -9,14 +9,15 @@ fruit="apple"
 for x in fruit:
     print(x)
     '''
-    
-'''#3 example
+'''
+#3 example
 fruit=["apple","banana","cherry"]
 for x in fruit:
     print(x)
     if x=="banana":
         break
         '''
+        
         
 '''#4 example
 fruit=["apple","banana","cherry"]
@@ -35,7 +36,7 @@ for x in fruit:
     '''
 
 '''#6,7 example
-for x in range(1,6): #not include 6
+for x in range(1,6)#(0-5) not include 6
     print(x)
     '''
     
@@ -61,7 +62,8 @@ for x in adj:
   for y in fruits:
     print(x, y)
     '''
-'''red apple
+'''
+red apple
 red banana
 red cherry
 big apple

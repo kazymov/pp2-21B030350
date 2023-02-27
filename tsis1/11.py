@@ -1,6 +1,6 @@
-print(10>9)
-print(10==9)
-print(10<9)
+print(10>9)#true
+print(10==9)#FALSE
+print(10<9)#false
 
 a=200
 b=33
@@ -15,7 +15,7 @@ print(bool(["apple","cherry","banana"]))
 print(bool(False))
 print(bool(None))
 print(bool(0))
-print(bool(""))
+print(bool(""))#false because is empty
 print(bool(()))
 print(bool([]))
 print(bool({}))

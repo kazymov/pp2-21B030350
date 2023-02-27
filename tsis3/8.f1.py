@@ -5,4 +5,8 @@ def determine007(a):
   return False
 
 a= [int(x) for x in input().split()]
-print(determine007(a))
+if determine007(a):
+  print("Yes")
+else:
+  print("No")
+#print(determine007(a))

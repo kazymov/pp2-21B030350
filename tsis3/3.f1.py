@@ -1,10 +1,13 @@
 def Ans(numheads,numlegs):
-    ns='No solutions!'
+    if numlegs%2!=0:
+        return "error"
+        
     for i in range(numheads+1):
         j=numheads-i
-        if 2*i+4*j==numlegs:
+        if 2*i+4*j==numlegs:#i-chiken, j-rabbit
             return i,j
-    return ns,ns
+        
+    return "error"# if i and j not found
 
 numheads = int(input())
 numlegs = int(input())

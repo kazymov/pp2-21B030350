@@ -20,6 +20,7 @@ z4=-5j
 a=float(x1)#convert fromt int to float
 b=int(x2)#convert from float to int 
 c=complex(x1)#convert from int to complex
+#d=int(x4)
 
 #import random number:
 import random
@@ -31,3 +32,4 @@ print(type(z1),type(z2),type(z3),type(z4))
 print(a,":",type(a))
 print(b,":",type(b))
 print(c,":",type(c))
+#print(d, ":",type(d))#int() argument must be a string, a bytes-like object or a real number, not 'complex'

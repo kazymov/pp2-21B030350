@@ -34,9 +34,10 @@ print(thislist)
 
 
 
-#list methods:
 
-'''#1.append()-Adds an element at the end of the list:
+#list methods:
+'''
+#1.append()-Adds an element at the end of the list:
 l=input()
 list1=['apple','banana','cherry']
 list2=[1,2,3,4]
@@ -44,6 +45,7 @@ list1.append(l)
 list1.append(list2)
 print(list1)
 '''
+
 
 '''#2.clear()-Removes all the elements from the list:
 list=["apple","banana","cherry"]
@@ -57,11 +59,13 @@ x=list.copy()
 print(x)
 '''
 
+
 '''#4.count()-Returns the number of elements with the specified value:
 list=["apple","banana","apple","cherry"]
 x=list.count("apple")
 print(x)
 '''
+
 
 '''#5.extend()-Add the elements of a list (or any iterable), to the end of the current list:
 list1=["apple","banana","cherry"]
@@ -93,12 +97,13 @@ list=["apple","banana","cherry"]
 list.remove("apple")
 print(list)
 '''
-
-'''#10.reverse()-Reverses the order of the list
-list=["apple","cherry","banana"]
+'''
+#10.reverse()-Reverses the order of the list
+list=["apple","cherry","banana"]#['banana', 'cherry', 'apple']
 list.reverse()
 print(list)
 '''
+
 
 '''#11.sort()-Sorts the list:
 list=["cherry","apple","banana"]

@@ -80,7 +80,7 @@ movies = [
 
 def ansfilm(film):
     for i in range(len(movies)):
-        if movies[i]["category"] == film:
+        if movies[i]["category"] == film: 
             print(movies[i])
 
 

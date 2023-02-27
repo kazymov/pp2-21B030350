@@ -1,3 +1,4 @@
+#arrays:
 '''#1 example
 cars=["Ford","Volvo","BMW"]
 x=cars[0]
@@ -33,7 +34,8 @@ cars.pop(1)
 print(cars)
 '''
 
-'''#7 example -The list's remove() method only removes the first occurrence of the specified value.
+'''
+#7 example -The list's remove() method only removes the first occurrence of the specified value.
 cars = ["Ford", "Volvo", "BMW","Volvo"]
 #cars.pop(1)
 cars.remove("Volvo")

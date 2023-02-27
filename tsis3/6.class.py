@@ -17,6 +17,6 @@ class Prime:
         print(y)
 
 a = [int(x) for x in input().split()]
-print(a)
+#print(a)
 p = Prime(a)
 p.filter_prime()

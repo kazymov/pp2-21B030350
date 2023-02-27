@@ -18,7 +18,8 @@ thisdict = {
 print(thisdict["brand"])
 '''
 
-'''#3,4 examples
+'''
+#3,4 examples
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -27,10 +28,12 @@ thisdict = {
 }
 print(thisdict)
 print(len(thisdict))
+#{'brand': 'Ford', 'model': 'Mustang', 'year': 2020}, 3
 '''
 
 
-'''#4,5 example
+'''
+#4,5 example
 thisdict = {
   "brand": "Ford",
   "electric": False,
@@ -41,8 +44,14 @@ print(thisdict)
 print(type(thisdict))
 '''
 
+
 '''#6 example
 thisdict = dict(name = "John", age = 36, country = "Norway")
 print(thisdict)
 '''
 
+
+cars = ["Ford", "Volvo", "BMW"]
+cars.pop(1)
+cars.pop(1)
+print(cars)
