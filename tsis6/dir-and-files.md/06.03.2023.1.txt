@@ -1,0 +1,8 @@
+ What is a directory?
+ A Directory also sometimes known as a folder is a unit organizational structure
+ in a computer’s file system for storing and locating files or more folders. 
+ Python now supports a number of APIs to list the directory contents. 
+ For instance, we can use the Path.iterdir, os.scandir, os.walk, Path.rglob, or os.listdir .
+
+1->os.listdir() method gets the list of all files and directories in a specified directory. 
+ By default, it is the current directory. Beyond the first level of folders, os.listdir() does not return any files or folders.
